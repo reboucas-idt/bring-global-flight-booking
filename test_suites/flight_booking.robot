@@ -8,7 +8,7 @@ Resource       ../support/Hooks.robot
 Resource       ../keywords/FlightsPage.robot
 
 Test Setup      Open Web browser  https://www.ryanair.com/gb/en  chrome
-Test Teardown   Close browser opened
+Test Teardown    Close browser opened
 
 
 *** Test Cases ***
