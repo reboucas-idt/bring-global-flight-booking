@@ -13,7 +13,7 @@ Test Setup      Open Web browser  https://www.ryanair.com/gb/en  chrome
 
 *** Test Cases ***
 
-Scenario: Performing a Trip Reservation
+Scenario: Making a Trip Reservation
     Given I am in the flight company website to book a trip
         And I inform the departure and destination locales  Lisbon  Malaga
         And I inform the quantity of passengers
