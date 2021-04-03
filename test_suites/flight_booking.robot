@@ -13,7 +13,7 @@ Test Teardown   Close browser opened
 
 *** Test Cases ***
 
-Scenario: Making a Trip Reservation
+Scenario: Performing a Trip Reservation
     Given I am in the flight company website to book a trip
         And I inform the departure and destination locales  Lisbon  Malaga
         And I inform the quantity of passengers
